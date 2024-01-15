@@ -1,0 +1,29 @@
+{
+  "name": "electron-update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iMestav/electron-update.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iMestav/electron-update/issues"
+  },
+  "homepage": "https://github.com/iMestav/electron-update#readme",
+  "devDependencies": {
+    "electron": "^28.1.3",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.7"
+  }
+}
